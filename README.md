@@ -96,8 +96,3 @@ SSH into the control node and follow the steps below:
 - Copy the playbook files to /etc/ansible/role.
 - Update the /etc/ansible/hosts file to include the ip addresses of both the elkservers and the webservers.
 - Run the playbook, and navigate to (public_ip_of_elk):5601 to check that the installation worked as expected.
-
-_TODO: Answer the following questions to fill in the blanks:_
-  - The install-elk.yml file is the playbook.
-  - The /etc/ansible/hosts file is the config file to make sure the playbooks run at certain machines.
-  - The public ip followed by :5601 is the url for the elk server.
